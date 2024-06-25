@@ -1,0 +1,48 @@
+.cardContainer{
+  height: 21.8rem;
+  width: 16rem;
+  padding: 4px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+
+  .imgContainer{
+    height: 45%;
+    overflow: hidden;
+    border-radius: 3px;
+    .newsImg{
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 3px;
+      transition: all 0.3s;
+      &:hover{
+        scale: 1.1;
+        cursor: pointer;
+      }
+    }
+  }
+  .descContainer{
+    padding: 6px;
+    h3{
+      font-size: 18px;
+      color: black;
+
+    }
+    .btnContainer{
+      button{
+        background: rgb(50, 50, 247);
+        color: white;
+        padding: 5px;
+        border: none;
+        text-align: center;
+        border-radius: 4px;
+        &:hover{
+          background-color: white;
+          color: blue;
+          border: solid 1px blue;
+        }
+      }
+    }
+  }
+}
